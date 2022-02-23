@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+<body>
+<header id="header">
+  <div class="join">
+    <div class="logo">
+      <img id="header-img" src="https://cdn-icons.flaticon.com/png/512/1747/premium/1747230.png?token=exp=1644867115~hmac=6593ff1941f7052ce523ec21b295e752" alt="wizard hat logo"/>
+    </div>
+   <div class="head-text">
+    <h1>The Mystical Tavern</h1>
+    <h4 id="slogan">Erase all of your worries from your DnD campaign...<em>for a price!</em></h4>
+    </div>
+  </div>
+  <nav id="nav-bar">
+ <b><a href="#about" class="nav-link">About Us</a>
+    <a href="#video" class="nav-link">Video</a>
+    <a href="#products" class="nav-link">Products</a>
+   <a href="#pricing" class="nav-link">Pricing</a></b>
+  </nav>
+  </header>
+  <div class="container">
+    <section id="about">
+      <img id="shopkeep" src="https://cdn-icons-png.flaticon.com/512/4329/4329718.png" alt="simple wizard png">
+      <h2>Greetings Weary Traveler!</h2> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pharetra diam ut tincidunt cursus. Praesent tempor ante vitae tortor gravida dapibus. Morbi pellentesque nisl dolor, eu vehicula metus molestie in. Morbi ut urna turpis. Nunc ullamcorper, orci vitae porta imperdiet, purus ex suscipit orci, ac dignissim arcu leo commodo sem. Morbi mollis egestas lacinia. Proin sollicitudin fermentum orci, sit amet pretium augue maximus sed. Fusce eu nulla id felis pharetra viverra. Fusce tristique elit et nibh pharetra rhoncus. Donec eget lectus est. Integer eget metus sed urna vestibulum laoreet. In tempus urna nec ligula vehicula scelerisque. Mauris ut fermentum enim. Curabitur tellus lorem, rutrum eget ultrices ut, imperdiet a tortor. Nulla sed bibendum nisl, a dapibus lorem. Nam erat erat, tincidunt sit amet laoreet nec, pretium in nibh.</p>
+      <p>Ex eros maiorum mel. Cu quis movet pro, ex eirmod ornatus est, ius at dicit elaboraret constituam. Vel eu vocent lobortis scriptorem, voluptua eleifend delicatissimi in mel, pro id enim oporteat. Sed ne ferri velit partiendo, ea nam omnium minimum invenire, ius et diceret assentior. Vis eu rebum epicuri reformidans, cum ancillae neglegentur ex, et has quando verear interesset. Paulo primis epicuri sea an, meis praesent efficiendi cu est, est ex regione dolorem. Justo malorum et qui, duo enim percipit moderatius an.</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your Email for MYSTICAL Rewards!"
+               />
+        <input 
+          id="submit" 
+          type="submit"
+          value="Let's Go!" 
+          class="btn"
+               />
+      </form>
+      </section>
+    <hr>
+  <section id="background-music">
+      <iframe
+        id="video"
+        src="https://www.youtube.com/embed/pgLjYsVP4H0"
+        width="560"
+        height="300"
+        frameborder="0"
+      ></iframe>
+    </section>
+  <hr>
+  <section id="products">
+    <h2>Check Out Our Ever-Changing Selection of <span>Rare Items!</span></h2>
+    <h4>Don't see anything you like? Come back next week for a new selection!</h4>
+    <div class="all-products">
+     <div class="product-container">
+      <img class="item-pic" src="https://i0.wp.com/eventyrgames.com/wp-content/uploads/2021/08/636284761492570136.jpeg?resize=300%2C300&ssl=1"/>
+      <h3>Ring of Spell Storing</h3>
+      <ul>
+        <li>Can store up to 5 levels worth of spells</li>
+        <li>Can be refilled with spells from any creature, letting anyone wearing it use that exact spell</li>
+        <li>Uses DC and spellcasting ability of the original caster!</li>
+        <li><span>*Spells are only one use per charge*</span></li>
+      </ul>
+    </div>
+    <div class="product-container">
+      <img class="item-pic" src="https://i0.wp.com/eventyrgames.com/wp-content/uploads/2021/08/636284739707897018.jpeg?resize=280%2C280&ssl=1"/>
+      <h3>Helm of Teleportation</h3>
+      <ul>
+        <li>Total of 3 Teleportation charges</li>
+        <li>Regains 1d3 expended charge per dawn</li>
+        <li>No limit on teleportation distance! (unless GM is lame)</li>
+        <li><span>*REQUIRES ATTUNEMENT*</span></li>
+      </ul>
+    </div>
+    <div class="product-container">
+      <img class="item-pic" src="https://i0.wp.com/eventyrgames.com/wp-content/uploads/2021/08/636284740704653038.jpeg?resize=300%2C300&ssl=1"/>
+      <h3>Brass Horn of Valhalla</h3>
+      <ul>
+        <li>Allows the summon of 3d4+3 beserkers to fight for you</li>
+        <li>Doesn't require attunement to use!</li>
+        <li>Only useable once every seven days</li>
+        <li><span>*Requires simple weapon proficiency or else they WILL turn on you!*</span></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+  <hr>
+  <section id="pricing">
+    <h2>Select a Purchasing Option Below!</h2>
+    <div class="pricing-container">
+      <div class="opt">
+      <h2>Buy One Item of your Choosing</h2>
+        <p>(Sorry Stranger, Can't give no discounts here)</p>
+        <img class="gold" src="https://cdn-icons.flaticon.com/png/512/3668/premium/3668635.png?token=exp=1644950949~hmac=28e75bb892a99ca3096a552f2342e223">
+        <input
+          type="button"
+          id="price"
+          class="btn"
+          value="5,000 Gold"
+         />
+      </div>
+      <div class="opt">
+      <h2>Buy Two For a 20% Off</h2>
+        <p>*May or May Not Be The Two of Your Choosing*</p>
+        <img class="gold2" src="https://cdn-icons.flaticon.com/png/512/3668/premium/3668635.png?token=exp=1644950949~hmac=28e75bb892a99ca3096a552f2342e223">
+        <input
+          type="button"
+          id="price"
+          class="btn"
+          value="8,000 Gold"
+         />
+      </div>
+      <div class="opt">
+      <h2>Buy Two Full-Price To Get One Free!</h2>
+        <p>*Become Unstoppable With this <em>Mystical</em> Discount!*</p>
+        <img class="gold3" src="https://cdn-icons.flaticon.com/png/512/3668/premium/3668635.png?token=exp=1644950949~hmac=28e75bb892a99ca3096a552f2342e223">
+        <input
+          type="button"
+          id="price"
+          class="btn"
+          value="10,000 Gold"
+         />
+      </div>
+    </div>
+  </section>
+    <hr>
+    <h3>Designed and Developed By <a href="https://github.com/KorbynHackney" target="_blank"> Korbyn Hackney</a>
+  </div>
+  </body>
+</html>

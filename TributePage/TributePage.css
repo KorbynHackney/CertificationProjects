@@ -1,0 +1,57 @@
+html {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2015/12/Iron-man-hd-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  body {
+    color: #EAEAEA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  h4{
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  h5{
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .head_box {
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .body_boxes {
+    font-size: .8em;
+    margin-right: 5%;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  #image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  #img-caption {
+    font-style: italic;
+    font-size: .6em;
+  }

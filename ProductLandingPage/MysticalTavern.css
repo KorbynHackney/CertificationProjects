@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+html {     
+  background-image: url(https://wallpapercave.com/dwp1x/wp2361283.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #00becc;
+  padding: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Redressed', cursive;
+}
+
+nav {
+  display: flex;
+  margin-right: 20px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*add h2 and h4 text shadow*/
+
+span {
+  color: red;
+}
+
+
+
+.logo {
+  display: flex;
+  width: 75px;
+}
+
+.head-text {
+  margin-left: 20px;
+}
+
+.join {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  margin: 100px 10% 20px 10%;
+  padding: 2% 10% 2% 10%;
+  background: linear-gradient(0, rgba(0,190,204,0.7),
+rgba(101,177,252,1));
+  border-radius: 15px;
+}
+
+.btn {
+  font-family: 'Redressed', cursive;
+  text-align: center;
+  height: 3em;
+  padding: .5em;
+  background-color: #A54BFF;
+  border: 2px solid #A54BFF;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background-color: #00becc;
+  cursor: pointer;
+}
+
+.all-products {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+/*media query added for tablets*/
+@media (max-width: 800px) {
+  .all-products {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.product-container {
+  text-align: center;
+  width: 50%;
+  margin: 10px;
+  padding: 30px;
+  background: #65b1fc;
+  border-radius: 15px;
+}
+/*media query added for tablets*/
+@media (max-width: 800px) {
+  .product-container {
+    width: 300px;
+  }
+}
+
+.item-pic {
+  border-radius: 50%;
+  width: 45%;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: row;
+}
+/*media query added for tablets*/
+@media (max-width: 800px) {
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.opt {
+  text-align: center;
+  width: 50%;
+  margin: 10px;
+  padding: 30px;
+  background: #65b1fc;
+  border-radius: 15px;
+}
+/*media query added for tablets*/
+@media (max-width: 800px) {
+  .opt {
+    width: 300px;
+  }
+}
+
+.gold {
+  width: 45px;
+  margin-top: 2vw;
+}
+
+.gold2 {
+  width: 45px;
+  margin-top: 2vw;
+}
+
+.gold3 {
+  width: 45px;
+  margin-top: 20px;
+}
+
+#shopkeep {
+  width: 25%;
+  margin-top: 5%;
+  border: 3px solid #A54BFF;
+  border-radius: 50%;
+}
+
+#email {
+  width: 250px;
+  font-family: 'Redressed', cursive;
+  text-align: center;
+  height: 3em;
+  padding: 1em;
+  background-color: rgba(215,234,253);
+  border: 2px solid #A54BFF;
+  border-radius: 0.5rem;
+}
+
+
+#price {
+  width: 100%;
+}
+
+#video {
+  width: 560px;
+  height: 300px;
+}
+/*media query added for tablets*/
+@media (max-width: 800px) {
+  #video {
+    width: 200px;
+  }
+}
